@@ -5,6 +5,15 @@
 
 //Write filterByGenre(books, genre) below here:
 
+function filterByGenre(books, genre) {
+
+    let results = books.filter(function(book) {
+      return genre === book.genre;
+    })
+
+    return results;
+}
+
 
 const books = [
   {
